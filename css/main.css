@@ -124,4 +124,33 @@ body {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+  .order .container {
+    padding: 2.5rem 3rem;
+  }
+  .order-heading {
+    font-size: 1.75rem;
+  }
+  .order-details {
+    padding: 1.5rem;
+    -ms-grid-columns: 1fr 3fr 1fr;
+        grid-template-columns: 1fr 3fr 1fr;
+  }
+  .order .type {
+    font-size: 1rem;
+  }
+  .order .change {
+    font-size: 0.9rem;
+  }
+  .btn-proceed {
+    margin-top: 2rem;
+  }
+  .btn-cancel {
+    margin-top: 1.5rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */

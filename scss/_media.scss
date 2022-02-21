@@ -1,0 +1,38 @@
+@media (min-width: $breakpoint) {
+	body {
+		background-image: url('../images/pattern-background-desktop.svg');
+	}
+
+	.order {
+		.container {
+			padding: 2.5rem 3rem;
+		}
+
+		&-heading {
+			font-size: 1.75rem;
+		}
+
+		&-details {
+			padding: 1.5rem;
+			grid-template-columns: 1fr 3fr 1fr;
+		}
+
+		.type {
+			font-size: 1rem;
+		}
+
+		.change {
+			font-size: 0.9rem;
+		}
+	}
+
+	.btn {
+		&-proceed {
+			margin-top: 2rem;
+		}
+
+		&-cancel {
+			margin-top: 1.5rem;
+		}
+	}
+}
