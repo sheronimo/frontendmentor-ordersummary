@@ -11,6 +11,10 @@ a {
   color: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   min-height: 100vh;
   padding: 1.5rem;
@@ -35,5 +39,9 @@ body {
   background-color: #e0e8ff;
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.order {
+  background-color: #f5f7ff;
 }
 /*# sourceMappingURL=main.css.map */

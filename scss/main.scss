@@ -12,6 +12,10 @@ a {
 	color: inherit;
 }
 
+img {
+	max-width: 100%;
+}
+
 // Base
 body {
 	min-height: 100vh;
@@ -29,4 +33,9 @@ body {
 	background-color: $clr-primary;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+}
+
+// Order Summary Card
+.order {
+	background-color: $clr-neutral-pale;
 }
