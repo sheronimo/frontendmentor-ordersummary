@@ -42,12 +42,28 @@ body {
 }
 
 .order {
-  background-color: #f5f7ff;
+  background-color: white;
   border-radius: 20px;
 }
 
 .order-hero {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+}
+
+.order .container {
+  padding: 1.5rem;
+}
+
+.order-heading {
+  font-size: 1.4rem;
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.order-desc {
+  font-size: 1rem;
+  margin: 1rem;
+  line-height: 1.7;
 }
 /*# sourceMappingURL=main.css.map */

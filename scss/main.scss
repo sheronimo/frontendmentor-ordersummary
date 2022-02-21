@@ -37,11 +37,27 @@ body {
 
 // Order Summary Card
 .order {
-	background-color: $clr-neutral-pale;
+	background-color: $clr-neutral-white;
 	border-radius: $border-radius;
 
 	&-hero {
 		border-top-left-radius: $border-radius;
 		border-top-right-radius: $border-radius;
+	}
+
+	.container {
+		padding: 1.5rem;
+	}
+
+	&-heading {
+		font-size: 1.4rem;
+		color: $clr-neutral-dark;
+		font-weight: 900;
+	}
+
+	&-desc {
+		font-size: 1rem;
+		margin: 1rem;
+		line-height: 1.7;
 	}
 }
