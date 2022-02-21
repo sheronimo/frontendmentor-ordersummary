@@ -134,4 +134,17 @@ body {
 	}
 }
 
+.attribution {
+	font-size: 0.75rem;
+	margin-top: 1rem;
+}
+.attribution a {
+	color: $clr-secondary;
+	transition: color 0.3s ease;
+
+	&:hover {
+		color: $clr-secondary-hover;
+	}
+}
+
 @import 'media';

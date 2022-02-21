@@ -142,6 +142,21 @@ body {
   color: #1f2f56;
 }
 
+.attribution {
+  font-size: 0.75rem;
+  margin-top: 1rem;
+}
+
+.attribution a {
+  color: #3829e0;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+  color: #756af1;
+}
+
 @media (min-width: 768px) {
   body {
     background-image: url("../images/pattern-background-desktop.svg");
