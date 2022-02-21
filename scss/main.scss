@@ -38,4 +38,10 @@ body {
 // Order Summary Card
 .order {
 	background-color: $clr-neutral-pale;
+	border-radius: $border-radius;
+
+	&-hero {
+		border-top-left-radius: $border-radius;
+		border-top-right-radius: $border-radius;
+	}
 }
