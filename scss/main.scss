@@ -89,6 +89,11 @@ body {
 			font-size: 0.8rem;
 			font-weight: 700;
 			text-decoration: underline;
+
+			&:hover {
+				color: $clr-secondary-hover;
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -110,12 +115,22 @@ body {
 		margin-top: 1.5rem;
 		font-size: 0.9rem;
 		box-shadow: 0px 1rem 20px hsla(225, 100%, 94%, 1);
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background-color: $clr-secondary-hover;
+		}
 	}
 
 	&-cancel {
 		@extend %btn-shared;
 		margin-top: 1rem;
 		margin-bottom: 0.5rem;
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $clr-neutral-dark;
+		}
 	}
 }
 
