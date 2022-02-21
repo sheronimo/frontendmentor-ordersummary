@@ -43,8 +43,11 @@ body {
 }
 
 .order {
+  max-width: 450px;
   background-color: white;
   border-radius: 20px;
+  -webkit-box-shadow: 0px 2rem 20px rgba(114, 128, 167, 0.1);
+          box-shadow: 0px 2rem 20px rgba(114, 128, 167, 0.1);
 }
 
 .order-hero {
@@ -103,21 +106,22 @@ body {
 .btn-proceed, .btn-cancel {
   display: block;
   font-weight: 700;
-  font-size: 0.9rem;
   max-width: 100%;
 }
 
 .btn-proceed {
   background-color: #3829e0;
   color: white;
-  padding: 0.75rem;
+  padding: 1rem;
   border-radius: 10px;
   margin-top: 1.5rem;
+  font-size: 0.9rem;
   -webkit-box-shadow: 0px 1rem 20px #e0e8ff;
           box-shadow: 0px 1rem 20px #e0e8ff;
 }
 
 .btn-cancel {
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -38,8 +38,10 @@ body {
 
 // Order Summary Card
 .order {
+	max-width: $max-width;
 	background-color: $clr-neutral-white;
 	border-radius: $border-radius;
+	box-shadow: 0px 2rem 20px hsla(224, 23%, 55%, 0.1);
 
 	&-hero {
 		border-top-left-radius: $border-radius;
@@ -95,7 +97,6 @@ body {
 %btn-shared {
 	display: block;
 	font-weight: 700;
-	font-size: 0.9rem;
 	max-width: 100%;
 }
 
@@ -104,14 +105,16 @@ body {
 		@extend %btn-shared;
 		background-color: $clr-secondary;
 		color: $clr-neutral-white;
-		padding: 0.75rem;
+		padding: 1rem;
 		border-radius: 10px;
 		margin-top: 1.5rem;
+		font-size: 0.9rem;
 		box-shadow: 0px 1rem 20px hsla(225, 100%, 94%, 1);
 	}
 
 	&-cancel {
 		@extend %btn-shared;
 		margin-top: 1rem;
+		margin-bottom: 0.5rem;
 	}
 }
