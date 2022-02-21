@@ -1,1 +1,26 @@
 @import 'config';
+
+// Resets
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+// Base
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: $font-stack;
+	color: $clr-neutral-desat;
+	line-height: 1.4;
+}
