@@ -90,3 +90,28 @@ body {
 		}
 	}
 }
+
+// Button Utility
+%btn-shared {
+	display: block;
+	font-weight: 700;
+	font-size: 0.9rem;
+	max-width: 100%;
+}
+
+.btn {
+	&-proceed {
+		@extend %btn-shared;
+		background-color: $clr-secondary;
+		color: $clr-neutral-white;
+		padding: 0.75rem;
+		border-radius: 10px;
+		margin-top: 1.5rem;
+		box-shadow: 0px 1rem 20px hsla(225, 100%, 94%, 1);
+	}
+
+	&-cancel {
+		@extend %btn-shared;
+		margin-top: 1rem;
+	}
+}
