@@ -33,6 +33,7 @@ body {
           justify-content: center;
   text-align: center;
   font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
   color: #7280a7;
   line-height: 1.4;
   background-image: url("../images/pattern-background-mobile.svg");
@@ -65,5 +66,37 @@ body {
   font-size: 1rem;
   margin: 1rem;
   line-height: 1.7;
+}
+
+.order-details {
+  background-color: #f5f7ff;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 0.25rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.order-details .type {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.order-details .name {
+  color: #1f2f56;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.order-details .change {
+  color: #3829e0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */
